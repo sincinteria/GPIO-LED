@@ -39,7 +39,7 @@ try:
         GPIO.output(3, array[i][1])
         GPIO.output(4, array[i][2])
         GPIO.output(17,array[i][3])
-        print array[i][0],array[i][1],array[i][2],array[i][3]
+        print array[i][0],array[i][1],array[i][2],array[i][3] #comment this line after test done 
         sleep(array[i][4])
 
 except KeyboardInterrupt:
